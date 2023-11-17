@@ -1,6 +1,6 @@
 package com.example.softtekactividadm5.controller;
 
-import com.example.softtekactividadm5.service.ITaskService;
+import com.example.softtekactividadm5.service.TaskService;
 import com.example.softtekactividadm5.entity.Task;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,7 +18,7 @@ import java.util.Optional;
 @RequestMapping
 public class TaskController {
     @Autowired
-    private ITaskService service;
+    private TaskService service;
 
     /**
      * Obtiene la lista de tareas y las agrega al modelo para mostrarlas en la vista principal.

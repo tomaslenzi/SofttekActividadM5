@@ -5,7 +5,7 @@ import com.example.softtekactividadm5.entity.Task;
 import java.util.List;
 import java.util.Optional;
 
-public interface ITaskService {
+public interface TaskService {
 
     List<Task> getTasks();
 

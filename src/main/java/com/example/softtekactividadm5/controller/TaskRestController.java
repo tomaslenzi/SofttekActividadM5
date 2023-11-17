@@ -1,7 +1,7 @@
 package com.example.softtekactividadm5.controller;
 
 import com.example.softtekactividadm5.entity.Task;
-import com.example.softtekactividadm5.service.ITaskService;
+import com.example.softtekactividadm5.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +16,7 @@ import java.util.Optional;
 @RequestMapping("/api/tasks")
 public class TaskRestController {
     @Autowired
-    private ITaskService taskService;
+    private TaskService taskService;
 
     /**
      * Obtiene todas las tareas.
