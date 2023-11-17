@@ -27,7 +27,7 @@ Este proyecto es una aplicación de lista de tareas desarrollada con Spring Boot
     spring.datasource.username=root
     spring.datasource.password=123456789
     spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-    spring.jpa.hibernate.ddl-auto=update
+    spring.jpa.hibernate.ddl-auto=create
     ```
 
 ### Ejecución
