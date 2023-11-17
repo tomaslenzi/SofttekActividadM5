@@ -20,6 +20,7 @@ public class TaskRestController {
 
     /**
      * Obtiene todas las tareas.
+     *
      * @return Lista de tareas.
      */
     @GetMapping
@@ -30,6 +31,7 @@ public class TaskRestController {
 
     /**
      * Obtiene una tarea por su ID.
+     *
      * @param id ID de la tarea.
      * @return ResponseEntity con la tarea si se encuentra, o ResponseEntity.notFound() si no.
      */
@@ -41,6 +43,7 @@ public class TaskRestController {
 
     /**
      * Guarda una nueva tarea.
+     *
      * @param task La tarea a guardar.
      * @return ResponseEntity con la tarea guardada.
      */
@@ -52,7 +55,8 @@ public class TaskRestController {
 
     /**
      * Actualiza una tarea existente por su ID.
-     * @param id ID de la tarea a actualizar.
+     *
+     * @param id   ID de la tarea a actualizar.
      * @param task La tarea actualizada.
      * @return ResponseEntity con la tarea actualizada si se encuentra, o ResponseEntity.notFound() si no.
      */
@@ -74,6 +78,7 @@ public class TaskRestController {
 
     /**
      * Elimina una tarea por su ID.
+     *
      * @param id ID de la tarea a eliminar.
      * @return ResponseEntity.noContent() si se elimina correctamente, o ResponseEntity.notFound() si no.
      */

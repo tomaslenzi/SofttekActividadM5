@@ -1,11 +1,12 @@
 package com.example.softtekactividadm5.entity;
 
 import jakarta.persistence.*;
+
 /**
  * Representa una tarea en el sistema.
  */
 @Entity
-@Table(name ="task")
+@Table(name = "task")
 public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -17,7 +18,10 @@ public class Task {
     private boolean completed;
 
     // Constructor sin argumentos necesario para JPA
-    public Task(){};
+    public Task() {
+    }
+
+    ;
 
     // Getters y setters
     public int getId() {

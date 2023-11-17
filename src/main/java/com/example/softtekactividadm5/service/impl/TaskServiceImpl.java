@@ -13,9 +13,10 @@ import java.util.Optional;
 public class TaskServiceImpl implements ITaskService {
     @Autowired
     private TaskRepository data;
+
     @Override
     public List<Task> getTasks() {
-        return (List<Task>) data.findAll() ;
+        return (List<Task>) data.findAll();
     }
 
     @Override
