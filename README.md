@@ -88,7 +88,7 @@ services:
       MYSQL_ROOT_PASSWORD: <contraseña>
       MYSQL_DATABASE: todolistspring
     volumes:
-      - ./mysql-data:/var/lib/mysql
+      - mysql-data:/var/lib/mysql
 ```
 Luego, se ejecutó el siguiente comando en la terminal para crear y levantar el servicio java_db:
 
