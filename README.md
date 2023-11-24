@@ -130,7 +130,7 @@ ENTRYPOINT [ "java","-jar","java_app.jar" ]
    Se construyó el archivo JAR de la aplicación utilizando Maven.
 
 ```bash
-mvn clean package -DskipTests
+mvn clean package 
 ```
 
 5. ### Construcción de Imágenes y Levantamiento de Contenedores
@@ -152,7 +152,7 @@ git clone https://github.com/tomaslenzi/SofttekActividadM5.git
 * ## Ejecutar los Siguientes Comandos:
 
 ```bash
-mvn clean package -DskipTests
+mvn clean package 
 docker-compose up -d java_db
 docker-compose up -d java_app
 ```
